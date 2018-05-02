@@ -8,9 +8,12 @@
     "react-scripts": "1.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "start": "npm run remove:www && react-scripts start",
+    "build": "npm run remove:www && react-scripts build",
+    "build:cordova":
+      "npm run remove:www && react-scripts-ts build && node scripts/www.js && move build www",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "npm run remove:www && react-scripts eject",
+    "remove:www": "if exist www rd /s /q www"
   }
 }
