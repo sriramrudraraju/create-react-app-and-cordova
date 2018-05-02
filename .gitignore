@@ -8,6 +8,10 @@
 
 # production
 /build
+/www
+
+# cordova
+/platforms
 
 # misc
 .DS_Store
