@@ -12,9 +12,9 @@
   "scripts": {
     "start": "npm run remove:www && react-scripts start",
     "build": "npm run remove:www && react-scripts build",
-    "build:cordova": "npm run remove:www && react-scripts-ts build && node scripts/www.js && move build www",
+    "build:cordova": "npm run remove:www && react-scripts build && node scripts/www.js && mv build www",
     "test": "react-scripts test --env=jsdom",
-    "eject": "npm run remove:www && react-scripts eject",
+    "eject": "react-scripts eject",
     "remove:www": "rm -rf www"
   },
   "cordova": {
