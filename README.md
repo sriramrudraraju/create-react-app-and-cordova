@@ -25,3 +25,6 @@ More info on creating this structure and common issues can be found in the [Wiki
 * `npm start` starts the dev server for react app.
 * `cordova run browser` will run in browser. *Note: Use this only after `npm run build:cordova`*
 * `cordova run ios` will run in emulator. *Note: Use this only after `npm run build:cordova`*
+
+## Debugging in Android
+* Follow this [Guide](http://geeklearning.io/apache-cordova-and-remote-debugging-on-android/)
