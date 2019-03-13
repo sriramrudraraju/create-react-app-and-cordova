@@ -2,7 +2,7 @@
 
 More info on creating this structure and common issues can be found in the [Wiki](https://github.com/sriramrudraraju/create-react-app-and-cordova/wiki/Creating-Structure-for-Create-react-app-and-Cordova)
 
-## Contributing
+>Notes: This is a sample project. Not intended to manitain for future releases
 
 ### Installation
 * Clone/ Download this Code.
